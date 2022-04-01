@@ -152,7 +152,7 @@ It's not nice:
 * it is necessary to store the hessian on each iteration: $$\mathcal{O}(n^2)$$ memory
 * it is necessary to solve linear systems: $$\mathcal{O}(n^3)$$ operations
 * the Hessian can be degenerate at $$x^*$$
-* the hessian may not be positively determined $$\to$$ direction $$-(f''(x))^{-1}f'(x)$$ may not be a descending direction
+* the hessian may not be positively defined $$\to$$ direction $$-(f''(x))^{-1}f'(x)$$ may not be a descending direction
 
 ## Possible directions 
 * Newton's damped method (adaptive stepsize)
